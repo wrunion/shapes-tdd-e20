@@ -6,6 +6,13 @@ describe('Rectangle', () => {
     let rectangle = new Rectangle(1,2);
     expect(rectangle.getArea()).toBeTruthy(); 
   });
+
+  test('area function caclulates area of a rectangle', () => {
+    let rectangle = new Rectangle(1,2);
+    expect(rectangle.getArea()).toEqual(2);
+  });
+
+  
   
 
 });
